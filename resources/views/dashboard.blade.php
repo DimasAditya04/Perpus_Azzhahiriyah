@@ -17,7 +17,7 @@
                     <div class="max-w-sm mx-auto">
                         <div class="bg-white dark:bg-gray-800 overflow-hidden shadow-sm sm:rounded-lg text-center">
                             <img src="https://www.svgrepo.com/show/513520/book-closed.svg"
-                                class="mx-auto h-24 w-24" alt="Pinjam Buku">
+                                class="mx-auto h-24 w-24" alt="Peminjaman Buku">
                             <div class="px-6 py-4">
                                 <div class="font-bold text-xl mb-2">Perpustakaan Azzhahiriyah</div>
                                 <p class="dark:text-gray-100 text-base">

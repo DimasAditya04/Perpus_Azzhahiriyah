@@ -24,7 +24,7 @@ class SettingSeeder extends Seeder
                 ],
                 [
                     'key' => 'description',
-                    'value' => 'AZHARA',
+                    'value' => 'PERPUS AZZHAHIRIYAH',
                     'created_at' => now(),
                     'updated_at' => now(),
                 ],

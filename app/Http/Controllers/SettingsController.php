@@ -15,6 +15,10 @@ class SettingsController extends Controller
         return view('settings.index', compact('settings'));
     }
 
+    public function contact(){
+         return Redirect::route('login')->with('show_alert', true);
+    }
+    
     public function update(Request $request)
     {
         $request->validate([

@@ -12,7 +12,7 @@
         <x-application-logo class="block h-9 w-auto fill-current text-black dark:text-black" />
         <div class="ml-2">
             <div class="font-bold text-sm text-black dark:text-black">Selamat datang di</div>
-            <div class="text-sm text-black">AZHARA</div>
+            <div class="text-sm text-black">PERPUS AZZHAHIRIYAH</div>
         </div>
     </a>
 </div>
@@ -33,7 +33,7 @@
                 @endif
                 <div class="hidden space-x-8 sm:-my-px sm:ms-10 sm:flex">
                     <x-nav-link :href="route('peminjaman-buku.index')" :active="request()->routeIs('peminjaman-buku.index')">
-                        {{ __('Pinjam Buku') }}
+                        {{ __('Peminjaman Buku') }}
                     </x-nav-link>
                 </div>
                 <div class="hidden space-x-8 sm:-my-px sm:ms-10 sm:flex">
@@ -123,7 +123,7 @@
 
             <div class="mt-3 space-y-1">
                 <x-responsive-nav-link :href="route('peminjaman-buku.index')">
-                    {{ __('Pinjam Buku') }}
+                    {{ __('Peminjaman Buku') }}
                 </x-responsive-nav-link>
                 <x-responsive-nav-link :href="route('pengembalian-buku.index')">
                     {{ __('Pengembalian Buku') }}

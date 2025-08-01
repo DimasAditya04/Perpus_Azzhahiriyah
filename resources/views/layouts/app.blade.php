@@ -16,6 +16,8 @@
     <link rel="stylesheet" href="/assets/app.css">
     <link rel="stylesheet" href="/assets/watermark.css">
     <!-- Scripts -->
+    @vite(['resources/js/app.js', 'resources/css/app.css'])
+
     <script src="/assets/app.js" defer></script>
     <style>
         .watermark {
@@ -130,7 +132,7 @@
                         <x-application-logo class="block h-9 w-auto fill-current text-black dark:text-white" />
                         <div class="ml-3">
                             <div class="font-bold text-sm text-gray-900 dark:text-white">Selamat datang di</div>
-                            <div class="text-sm text-gray-600 dark:text-gray-300">AZHARA</div>
+                            <div class="text-sm text-gray-600 dark:text-gray-300">PERPUS AZZHAHIRIYAH</div>
                         </div>
                     </a>
                 </div>
@@ -161,7 +163,7 @@
                         <svg class="mr-3 h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>
                         </svg>
-                        {{ __('Pinjam Buku') }}
+                        {{ __('Peminjaman Buku') }}
                     </a>
 
                     <a href="{{ route('pengembalian-buku.index') }}" 
@@ -241,7 +243,7 @@
                         </button>
                         
                         <h1 class="ml-4 text-lg font-semibold text-gray-900 dark:text-white">
-                            AZHARA
+                            PERPUS AZZHAHIRIYAH 
                         </h1>
                     </div>
 

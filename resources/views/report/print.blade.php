@@ -7,7 +7,7 @@
     <title>Laporan Peminjaman Buku</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Times New Roman', Times, serif;
         }
 
         table {
@@ -64,11 +64,12 @@
 
 <body>
     <header>
+        <div class="header-container">
         <img src="{{ public_path('azzhahiriyah.png') }}" width="80px" class="header-icon">
         <div class="triangle-text">
             <div class="top-text">YAYASAN</div>
             <div class="bottom-text">AZZHAHIRIYAH</div>
-        </div>
+        </div></div>
     </header>
     <center>
         <h3>Laporan Peminjaman Buku</h3>
